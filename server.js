@@ -16,15 +16,15 @@ app.get("/", (req, res) => {
 });
 
 app.get("/knjige-za-razred", (req, res) => {
-  res.data(books[req.query.razred]);
+  res.json(books[req.query.razred[0]]);
 });
 
 app.get("/sve-knjige", (req, res) => {
-  res.data(books);
+  res.json(books);
 });
 
 app.get("/svi-periodi", (req, res) => {
-  res.data(periods);
+  res.json(periods);
 });
 
 app.listen(port, () => {
