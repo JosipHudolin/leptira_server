@@ -1,4 +1,4 @@
-export const periods = [
+const periods = [
   "Usmena književnost i mitologije",
   "Pretpovijest književnosti",
   "Književnost antike",
@@ -10,3 +10,5 @@ export const periods = [
   "Književnost realizma",
   "Književnost modernizma",
 ];
+
+module.exports = periods;
