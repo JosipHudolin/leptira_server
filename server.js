@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/knjige-za-razred", (req, res) => {
-  res.json(books[req.query.razred]);
+  res.json(books[req.query.razred[0]]);
 });
 
 app.get("/sve-knjige", (req, res) => {
