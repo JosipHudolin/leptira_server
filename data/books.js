@@ -1,12 +1,12 @@
-const data = {
-  1: [
+const books = {
+  "1. OŠ": [
     {
       author: "Jacob i Wilhelm Grimm",
       name: "Bajke (izbor)",
     },
   ],
 
-  2: [
+  "2. OŠ": [
     {
       author: "Hans Christian Andersen",
       name: "Bajke (izbor)",
@@ -29,7 +29,7 @@ const data = {
     },
   ],
 
-  3: [
+  "3. OŠ": [
     {
       author: "Mato Lovrak",
       name: "Vlak u snijegu",
@@ -72,7 +72,7 @@ const data = {
     },
   ],
 
-  4: [
+  "4. OŠ": [
     {
       author: "Ivana Brlić-Mažuranić",
       name: "Regoč",
@@ -115,7 +115,7 @@ const data = {
     },
   ],
 
-  5: [
+  "5. OŠ": [
     {
       author: "Mark Twain",
       name: "Doživljaji Huckleberrvja Finna",
@@ -158,7 +158,7 @@ const data = {
     },
   ],
 
-  6: [
+  "6. OŠ": [
     {
       author: "Jonathan Swift",
       name: "Gulliverova putovanja",
@@ -205,7 +205,7 @@ const data = {
     },
   ],
 
-  7: [
+  "7. OŠ": [
     {
       author: "August Šenoa",
       name: "Čuvaj se senjske ruke",
@@ -244,7 +244,7 @@ const data = {
     },
   ],
 
-  8: [
+  "8. OŠ": [
     {
       author: "Dinko Šimunović",
       name: "Alkar",
@@ -303,7 +303,7 @@ const data = {
     },
   ],
 
-  9: [
+  "1. SŠ": [
     {
       author: "Sofoklo",
       name: "Antigona",
@@ -402,7 +402,7 @@ const data = {
     },
   ],
 
-  10: [
+  "2. SŠ": [
     {
       author: "Dante Alighieri",
       name: "Božanstvena komedija – Pakao",
@@ -545,7 +545,7 @@ const data = {
     },
   ],
 
-  11: [
+  "3. SŠ": [
     {
       author: "Milan Begović",
       name: "Amerikanska jahta u splitskoj luci",
@@ -795,7 +795,7 @@ const data = {
       name: "Zločin i kazna",
     },
   ],
-  12: [
+  "4. SŠ": [
     {
       author: "Dinko Šimunović",
       name: "Alkar",
@@ -951,4 +951,4 @@ const data = {
   ],
 };
 
-module.exports = data;
+module.exports = books;
