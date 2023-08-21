@@ -10,7 +10,6 @@ const port = 8000;
 app.use(cors());
 
 app.get("/", (req, res) => {
-  console.log("Ja se pokrenio");
   res.status = 200;
   res.send("Hello World!");
 });
